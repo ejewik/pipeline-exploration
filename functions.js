@@ -5,9 +5,8 @@ function unreachableStatement(a, b) {
     console.log("This is unreachable");
 }
 
-function redundantElseIf(a, b) {
-    // testing redunant parameter
-    if (a) {
+function assigningInConditional(a) {
+    if (a = "assigning in a conditional") {
         return a;
     } 
 }
