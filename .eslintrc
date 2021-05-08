@@ -2,8 +2,9 @@
     "env": {
       "node": true
     },
+    "extends": "eslint:recommended",
     "rules": {
-      "extends": "eslint:recommended"
+      "quotes": ["error", "double"]
     },
     "globals": {
       "AnalysisView": true,
