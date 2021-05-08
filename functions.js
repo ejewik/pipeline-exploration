@@ -12,7 +12,7 @@ function redundantElseIf(a, b) {
     } else if (b) {
         return b;
     } else if (b) {
-        return b;
+        return a;
     }
 }
 
