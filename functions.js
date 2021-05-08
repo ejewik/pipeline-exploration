@@ -11,7 +11,7 @@ function redundantElseIf(a, b) {
         return a;
     } else if(a > b) {
         return b;
-    } else {
+    } else if(a > b) {
         return b;
     }
 }
