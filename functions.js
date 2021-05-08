@@ -7,11 +7,11 @@ function unreachableStatement(a, b) {
 
 function redundantElseIf(a, b) {
     // testing redunant else if for linter
-    if(a > b) {
+    if (a) {
         return a;
-    } else if(a > b) {
+    } else if (b) {
         return b;
-    } else if(a > b) {
+    } else if (b) {
         return b;
     }
 }
