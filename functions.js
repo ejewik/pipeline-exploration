@@ -1,5 +1,5 @@
 function unreachableStatement(a, b) {
-    // testing unreachable code for linter
+    // testing unreachable code for the linter
     let result = a + b;
     return result;
     console.log("This is unreachable");
