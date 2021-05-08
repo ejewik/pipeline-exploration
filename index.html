@@ -9,35 +9,6 @@
 </head>
 
 <body>
-    <h1>Experimenting for Code Climate</h1>
-    <dialog id="alertDialog">
-        <form method="dialog">
-            <p>Alert pressed!</p>
-            <menu>
-                <button id="okBtn" value="default">Ok</button>
-            </menu>
-        </form>
-    </dialog>
-    <dialog id="confirmDialog">
-        <form method="dialog">
-            <p>Do you confirm this?</p>
-            <menu>
-                <button id="confirmCancelBtn" type="submit">Cancel</button>
-                <button id="confirmConfirmBtn" type="submit">Confirm</button>
-            </menu>
-        </form>
-    </dialog>
-    <menu>
-        <button id="alertBtn">Alert</button>
-        <button id="confirmBtn">Confirm</button>
-    </menu>
-
-    <script type="module">
-        import { customAlert, customConfirm } from './btns.js';
-
-        window.addEventListener('DOMContentLoaded', customAlert);
-        window.addEventListener('DOMContentLoaded', customConfirm);
-    </script>
 </body>
 
 </html>
