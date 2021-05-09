@@ -6,13 +6,5 @@
     "extends": "eslint:recommended",
     "rules": {
       "quotes": ["error", "double"]
-    },
-    "globals": {
-      "AnalysisView": true,
-      "PollingView": true,
-      "Prism": true,
-      "Spinner": true,
-      "Timer": true,
-      "moment": true
     }
   }
